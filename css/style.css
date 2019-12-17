@@ -1,4 +1,6 @@
-
+.navigat{
+	background-color:#F63;
+}
 @font-face {
     font-family: 'Oxygen-Bold';
     src:url(../fonts/Oxygen-Bold.ttf) format('truetype');
@@ -1490,7 +1492,8 @@ ul.nav_1 li a {
 	font-size: 0.85em;
 }
 .logo img{
-	width:84%;
+	width:40px;
+	height: 40px;
 }
 .h_menu4 {
     margin-left: 21.8%;

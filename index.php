@@ -1,9 +1,14 @@
-<!DOCTYPE html>
-<html>
-
+<?php
+    session_start();
+    include "lib/DataProvider.php";	
+    //$_SESSION["path"] = $_SERVER["RESUEST_URL"];
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>HUNTER SHOP PHONE</title>
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!-- Custom Theme files -->
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -50,6 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
 	</script>
 	<!---//End-rate---->
+
 </head>
 
 <body>
@@ -267,18 +273,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<!--content-->
 			<div class="content">
-				<!--//products-->
-				<div class="navigat">               
+				<div class="container">
+					<div class="content-mid">
+						<?php
+							include "pages/pSanPhamBanChay.php";
 
+						?>
+					
+					</div>
+					<div class="content-mid">
+						<?php
+							include "pages/pSanPhamMoi.php";
+
+						?>
+					
+					</div>
 				</div>
 			
-
-
-
-
-
-
-				<!--//products-->
 			</div>
 		</div>
 		<!--//content-->
@@ -339,5 +350,4 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 			</script>
 </body>
-
 </html>
