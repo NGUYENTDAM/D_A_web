@@ -937,7 +937,7 @@ ul.product-qty {
     padding: 0.3em 0;
 }
 .facts ul li span{
-    padding-right: 0.5em;
+    padding-right: 7%;
 }
 nav.nav-sidebar {
     float: left;
@@ -1234,7 +1234,7 @@ a.at-in {
     border: none;
 }
 .ring-in{
-	width:45%;
+	width:25%;
 }
 
 .ring-in{
@@ -2270,10 +2270,31 @@ td.add-check a {
     width: 86px;
 }
 }
-@media(max-width:320px){
-.banner {
-    height: 232px;
-    background-position-x: -225px;
-    background-size: 542px;
+/*---chitietsanpham---*/
+.compare {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 0 20px;
 }
+
+.compare li a img{
+    width: 60%;
 }
+.compare li .desc {
+    color: #333;
+    line-height: 1.5;
+    padding: 10px 10px 0 0;
+}
+
+.compare li {
+    float: left;
+    overflow: hidden;
+    width: 20%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+/*------*/
