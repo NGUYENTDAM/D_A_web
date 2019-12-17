@@ -1,8 +1,4 @@
-/*Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 @font-face {
     font-family: 'Oxygen-Bold';
     src:url(../fonts/Oxygen-Bold.ttf) format('truetype');
@@ -22,7 +18,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html,body{
 	background:#fff;
 	font-size: 100%;
-	font-family:'Oxygen-Regular';
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	 
 }
 body a{
@@ -60,7 +56,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	margin: 0 0.5em;
 }
 .header-login ul li a:hover {
-    color: #F67777;
+    color: #000;
 	background: #474747;
 }
 .header-top {
@@ -76,8 +72,8 @@ ul.nav_1 li {
     border-right:1px solid #EFEFEF;
 }
 .navbar {
-    margin-bottom: 0px;
-	border:none;
+    margin: auto;
+	border: none;
 }
 div#bs-megadropdown-tabs {
     padding: 0;
@@ -86,11 +82,11 @@ div#bs-megadropdown-tabs {
     margin-left: 13.6%;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #f67777;
+    background-color: #000;
     color: #fff;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #f67777;
+  background-color: #000;
     color: #fff;
 }
 .col1 {
@@ -113,7 +109,7 @@ div#bs-megadropdown-tabs {
 	font-size: 1.5em;
     color: #000;
     margin-bottom: 0.5em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 /*--cart shop--*/
 .itemContainer{
@@ -174,7 +170,7 @@ a.item_add {
 }
 .heart li  a{
 	font-size: 0.9em;
-    color: lightpink;
+    color: #1F1F1F;
 	margin:0 1em;
     outline: none;	
 }
@@ -192,30 +188,28 @@ a.item_add {
 .content-top {
     padding: 5em 0;
 }
-.col-1 img{
-}
 .col-2 {
     padding-top: 1em;
 }
 .col-2 span{
 	font-size: 1.4em;
-    color: #F67777;
+    color: #000;
     line-height: 1.8em;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-family: 'Ubuntu-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .col-2 h2{
 	font-size: 2.5em;
     line-height: 1.8em;
-    font-family: 'Oxygen-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .col-2 h2 a{
 	text-decoration:none;
     color: #000000;
 }
 .col-2 h2 a:hover{
-    color: #f67777;
+    color: #000;
 }
 .col-2 p{
 	font-size: 0.9em;
@@ -225,9 +219,9 @@ a.item_add {
 }
  a.buy-now{
 	    font-size: 0.9em;
-    color: #F67777;
+    color: #000;
     text-decoration: none;
-    border-bottom: 2px solid #F67777;
+    border-bottom: 2px solid #000;
     padding: 0 0 0.5em;
     display: inline-block;
 }
@@ -255,13 +249,13 @@ a.buy-now:hover{
 	color:#fff;
 	font-size:1.1em;
 	text-transform:uppercase;
-	font-family: 'Oxygen-Bold';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .col-pic h5{
-	color:#F67777;
+	color:#000;
 	font-size:2em;
 	text-transform:uppercase;
-	font-family: 'Ubuntu-Bold';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .col-pic label{
 	width:100px;
@@ -276,7 +270,7 @@ a.buy-now:hover{
 	font-size: 2.5em;
     color: #000000;
     line-height: 1.8em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	text-align:center;
 }
 
@@ -284,7 +278,7 @@ a.buy-now:hover{
 	width:200px;
 	height:2px;
 	display:block;
-	background:#F67777;
+	background:#000;
 	border-radius:10px;
 	margin: 0.2em auto;
 }
@@ -293,10 +287,11 @@ a.buy-now:hover{
 }
  .mid-1 span{
 	font-size: 0.9em;
-    color: #F67777;
+    color: #000;
     line-height: 1.8em;
-    font-family: 'Ubuntu-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
+
 /*----*/
 /*-----------------------------------------------------------------------------------*/
 /*	Stroke
@@ -399,10 +394,10 @@ a.buy-now:hover{
 .b-from-left{
 	position:relative;
 	left:-100%;
-	    color: #F67777;
+	    color: #000;
     font-size: 2em;
     text-transform: uppercase;
-    font-family: 'Ubuntu-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .b-animate-go:hover .b-from-left{
 	left:0;
@@ -413,7 +408,7 @@ a.buy-now:hover{
 	    color: #fff;
     font-size: 1.1em;
     text-transform: uppercase;
-    font-family: 'Oxygen-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .b-animate-go:hover .b-from-right{
 	right:0;
@@ -452,14 +447,14 @@ a.buy-now:hover{
 /*----*/
 .mid-1 h6 {
     font-size: 1.2em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .mid-1 h6 a {
     color: #000000;
     text-decoration:none;
 }
 .mid-1 h6 a:hover {
-    color: #F67777;
+    color: #000;
 }
 .mid-2 p{
 	float:left;
@@ -506,7 +501,7 @@ a.buy-now:hover{
 	width: 50px;
     height: 50px;
     display: inline-block;
-    background: #f67777;
+    background: #000;
 	color:#fff;
 	font-size:1.3em;
     margin: 0 0.3em;
@@ -514,7 +509,7 @@ a.buy-now:hover{
 }
 .zoom-icon .glyphicon-menu-right{
     background:#fff;
-	color: #f67777;
+	color: #000;
 }
 .mid-pop .zoom-icon {
 	top: 0px;
@@ -544,7 +539,7 @@ a.buy-now:hover{
 .banner-top h1{
 	font-size:3em;
 	color:#fff;
-	font-family: 'Ubuntu-Regular';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .banner-top h2{
 	font-size:0.9em;
@@ -552,7 +547,7 @@ a.buy-now:hover{
 	margin-top:1em;
 }
 .banner-top h2 a{
-	color:#f67777;
+	color:#000;
 }
 .banner-top h2 label{
 	margin:0 0.4em;
@@ -573,7 +568,7 @@ a.buy-now:hover{
 	font-size:1.5em;
 	color:#52D0C4;
 	line-height:1.5em;
-	  font-family: 'OleoScript-Regular';
+	  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 label.add-to{
 	display:block;
@@ -657,9 +652,9 @@ a.cart:hover{
     padding-top: 2em;
 }
 h4.cate {
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
     font-size: 1.7em;
-    color:#F67777;
+    color:#000;
 }
 
 ul.kid-menu{
@@ -680,10 +675,10 @@ ul.kid-menu{
 	color: #000;
 	font-size: 0.9em;
 	text-decoration:none;
-	    font-family: 'Oxygen-Bold';
+	    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .menu-drop > li > a:hover{
-	color:#f67777;
+	color:#000;
 }
 .menu-drop ul li a {	
 	width: auto;
@@ -715,7 +710,7 @@ ul.kid-menu li,ul.cute li{
 	color: #000;
     text-transform: uppercase;
     font-size: 1.8em;
-    font-family: 'Ubuntu-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 p.in-para{
 color: #B3B3B3;
@@ -731,9 +726,9 @@ color: #B3B3B3;
     padding-bottom: 1em;
 }
 span.reducedfrom {
-	    color: #F67777;
+	    color: #000;
     font-size: 1.5em;
-    font-family: 'Ubuntu-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
     float: left;
 }
 .price_single a {
@@ -746,7 +741,7 @@ h4.quick {
 	color: #000;
 	font-size:1.2em;
 	text-transform: uppercase;
-	font-family: 'Ubuntu-Regular';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	margin-top: 1em;
 }
 p.quick_desc {
@@ -756,7 +751,7 @@ p.quick_desc {
 	margin: 1em 0 2em;
 }
 span.actual {
-	color:#F67777;
+	color:#000;
 	font-size: 1em;
 	margin-right: 5%;
 }
@@ -846,7 +841,7 @@ span.actual {
   transition-property: transform;
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
-  background-color: #F67777;
+  background-color: #000;
    color: #fff;
    padding: 0.5em 1em;
    font-size:1em;
@@ -855,7 +850,7 @@ span.actual {
 	-webkit-transform: skew(10deg);
 	transform: skew(10deg);
 	color:#fff;
-	background:#FF6C6C;
+	background:#000;
     text-decoration:none;
 }
 
@@ -869,7 +864,7 @@ ul.product-qty {
 	padding-bottom: 0.5em;
 	display: block;
 	text-transform: uppercase;
-	font-family: 'Ubuntu-Regular';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .product-qty select {
 	border: 1px solid #eee;
@@ -895,7 +890,7 @@ ul.product-qty {
 }
 
 .wish-list li a {
-	color:#F67777;
+	color:#000;
 	font-size: 0.85em;
 	text-decoration: underline;
 }
@@ -923,7 +918,7 @@ ul.product-qty {
     border-bottom: 1px solid #EDEDED;
 }
 .tabs  li a:hover,.tabs  li.active a{
-	background:#F67777 !important;
+	background:#000 !important;
 	color:#fff;
 }
 .tab-content {
@@ -974,7 +969,7 @@ nav.nav-sidebar {
 	padding: 0.5em 1em;
 }
 .login-mail i{
-	color: #F67777;
+	color: #000;
     font-size: 1em;
 }
 .login-mail input[type="text"],.login-mail input[type="password"]{
@@ -1062,7 +1057,7 @@ nav.nav-sidebar {
 .login-right h3{
 	font-size: 1.5em;
     color: #000000;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .login-right p {
     font-size: 0.9em;
@@ -1081,7 +1076,7 @@ nav.nav-sidebar {
 	font-size: 1.5em;
 	color:#000;
 	line-height:1.4em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .contact-top div{
 	padding:0.5em 0;
@@ -1127,7 +1122,7 @@ nav.nav-sidebar {
     font-size: 1.5em;
 	color:#000;
 	line-height:1.4em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .contact-left p {
     font-size: 0.9em;
@@ -1136,7 +1131,7 @@ nav.nav-sidebar {
     margin:1em 0 0;
 }
 .address-grid i{
-	color:#F67777;
+	color:#000;
 	font-size:1em;
 	float: left;
 	margin: 0 5% 0 0;
@@ -1153,7 +1148,7 @@ nav.nav-sidebar {
 	font-size: 1.2em;
 	color:#000;
 	line-height:1.4em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .address1 p{
 	margin: 0;
@@ -1163,7 +1158,7 @@ nav.nav-sidebar {
 	color: #7c7c7c;
 }
 .address1 p a:hover{
-	color:#F67777;
+	color:#000;
 }
 .address-more h4{
 	color:#000;
@@ -1180,12 +1175,12 @@ nav.nav-sidebar {
 }
 .four h3{
 	font-size: 7em;
-    color: #F67777;
-    font-family: 'Ubuntu-Regular';
+    color: red;
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .four p{
-	font-size: 0.9em;
-    color: #B3B3B3;
+	font-size: 1.1em;
+    color: #000;
     line-height: 1.8em;
     margin: 0 0 1.5em;
 }
@@ -1201,7 +1196,7 @@ th{
 	color: #000000;
     font-size: 1.4em;
     font-weight: 400;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 th, td {
     padding: 10px;
@@ -1220,10 +1215,10 @@ a.at-in {
 }
 .sed h5{
   	font-size: 1.1em;
-	font-family: 'Ubuntu-Regular';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .sed h5 a{
-    color: #F67777;
+    color: #000;
   	text-decoration:none;
 }
 .sed h5 a:hover{
@@ -1271,7 +1266,7 @@ a.at-in {
     background: #F5F5F5;
     border-bottom: 1px solid #A6A5A5;
     padding: 0.8em;
-    font-family: 'Ubuntu-Regular';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .wishlist h6 a{
 	text-decoration:none;
@@ -1280,7 +1275,7 @@ a.at-in {
 }
 .wishlist p{
 	font-size:1.1em;
-	color:#F67777;
+	color:#000;
 	padding:0.8em 0 ;
 }
 /*--footer--*/
@@ -1291,7 +1286,7 @@ a.at-in {
 .footer-middle-in h6{
 	font-size: 1.4em;
     color: #fff;
-    font-family: 'Ubuntu-Bold';
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	margin-bottom: 1em;
     text-transform: uppercase;
 }
@@ -1323,7 +1318,7 @@ ul.in li a{
 	display:block;	 
 }
 ul.in li a:hover{
-	color:#F67777;
+	color:#000;
 }
 ul.tag-in li{
 	display:inline-block;
@@ -1339,8 +1334,8 @@ ul.tag-in li a{
     border-radius: 15px;	
 }
 ul.tag-in li a:hover{
-	color:#F67777;
-    border: 1px solid #F67777;	
+	color:#000;
+    border: 1px solid #000;	
 }
 .footer-class a:hover{
 	color:#fff;
@@ -1359,7 +1354,7 @@ ul.tag-in li a:hover{
 .footer-middle-in input[type="submit"] {
     width: 100%;
     font-size: 1em;
-    background: #F67777;
+    background: #000;
     padding: 0.5em 1em;
     text-align: center;
     color: #fff;
@@ -1373,7 +1368,7 @@ ul.tag-in li a:hover{
 	-ms-transition: 0.5s all;
 }
 .footer-middle-in input[type="submit"]:hover {
-   color: #F67777;
+   color: #000;
     background: #fff;
 }
 .footer-bottom{
@@ -1387,7 +1382,7 @@ ul.tag-in li a:hover{
 	float:right;
 }
 .footer-class a{
-	color:#F67777;
+	color:#000;
 	text-decoration:none;
 }
 .footer-bottom-top{
@@ -1401,7 +1396,7 @@ ul.tag-in li a:hover{
 .page-header h3{
 	font-size: 3em;
 	color:#000;
-	font-family: 'Ubuntu-Regular';
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   padding: 8px;
