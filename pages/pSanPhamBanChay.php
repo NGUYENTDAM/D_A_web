@@ -1,5 +1,6 @@
 <h3>Sản Phẩm Bán Chạy Nhất</h3>
 <label class="line"></label>
+<div style="height: 30px"></div>
 <?php
 $sql = "SELECT * FROM SanPham WHERE BiXoa = 0 ORDER BY SoLuongBan DESC LIMIT 0, 10";
 $result = DataProvider::ExecuteQuery($sql);
@@ -23,6 +24,9 @@ while ($row = mysqli_fetch_array($result)) {
                             <div class="starbox small ghosting"> </div>
                         </div>
                         <div class="clearfix"></div>
+                    </div>
+                    <div>
+                        <a href="index.php?a=2&id=<?php echo $row["MaSanPham"]; ?>">Chi Tiết</a>
                     </div>
                 </div>
             </div>
