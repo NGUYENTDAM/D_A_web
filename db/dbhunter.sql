@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2019 at 04:55 PM
+-- Generation Time: Dec 18, 2019 at 02:52 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.1.33
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `dbhunter`
+-- Database: `dbhunter1`
 --
 
 -- --------------------------------------------------------
@@ -29,9 +29,9 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `chitietdondathang` (
-  `MaChiTietDonDatHang` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
-  `SoLuong` int(11) DEFAULT NULL,
   `GiaBan` int(11) DEFAULT NULL,
+  `SoLuong` int(11) DEFAULT NULL,
+  `MaChiTietDonDatHang` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
   `MaDonDatHang` varchar(9) COLLATE utf8_unicode_ci NOT NULL,
   `MaSanPham` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -200,9 +200,7 @@ INSERT INTO `tinhtrang` (`MaTinhTrang`, `TenTinhTrang`) VALUES
 -- Indexes for table `chitietdondathang`
 --
 ALTER TABLE `chitietdondathang`
-  ADD PRIMARY KEY (`MaChiTietDonDatHang`),
-  ADD KEY `fk_ChiTietDonDatHang_DonDatHang1_idx` (`MaDonDatHang`),
-  ADD KEY `fk_ChiTietDonDatHang_SanPham1_idx` (`MaSanPham`);
+  ADD PRIMARY KEY (`MaChiTietDonDatHang`);
 
 --
 -- Indexes for table `dondathang`
@@ -294,13 +292,6 @@ ALTER TABLE `tinhtrang`
 --
 -- Constraints for dumped tables
 --
-
---
--- Constraints for table `chitietdondathang`
---
-ALTER TABLE `chitietdondathang`
-  ADD CONSTRAINT `fk_ChiTietDonDatHang_DonDatHang1` FOREIGN KEY (`MaDonDatHang`) REFERENCES `dondathang` (`MaDonDatHang`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_ChiTietDonDatHang_SanPham1` FOREIGN KEY (`MaSanPham`) REFERENCES `sanpham` (`MaSanPham`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Constraints for table `dondathang`

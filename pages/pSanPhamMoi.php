@@ -1,3 +1,4 @@
+<div class="clearfix"></div>
 <h3>Sản Phẩm Mới Nhất</h3>
 <label class="line"></label>
 <?php
@@ -5,10 +6,10 @@ $sql = "SELECT * FROM SanPham WHERE BiXoa = 0 ORDER BY NgayNhap DESC LIMIT 0, 10
 $result = DataProvider::ExecuteQuery($sql);
 while ($row = mysqli_fetch_array($result)) {
 ?>
-    <div class="box">
+    <div >
         <div class="col-md-3 item-grid simpleCart_shelfItem">
             <div class=" mid-pop">
-                <div class="pro-img"> <img src="images/<?php echo $row["HinhURL"]; ?>" />
+                <div class="pro-img"> <img class="img-responsive" src="images/<?php echo $row["HinhURL"]; ?>" />
                 </div>
                 <div class="mid-1">
                     <div class="phone">

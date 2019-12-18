@@ -64,7 +64,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="head">
 				<div class=" logo">
-					<a href="index.html"><img src="images/logo.png" alt="" width="184" height="91"></a>
+					<a href="index.php"><img src="images/logo.png" alt="" width="184" height="91"></a>
 				</div>
 		  </div>
 		</div>
@@ -89,7 +89,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<!-- Menu Bar -->
 							<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 								<ul class="nav navbar-nav nav_1">
-									<li><a class="color" href="index.html">Trang chủ</a></li>
+									<li><a class="color" href="index.php">Trang chủ</a></li>
 									<li class="dropdown mega-dropdown active"> <a class="color1" href="#" class="dropdown-toggle" data-toggle="dropdown">Điện Thoại<span class="caret"></span></a>
 										<div class="dropdown-menu ">
 											<div class="menu-top">

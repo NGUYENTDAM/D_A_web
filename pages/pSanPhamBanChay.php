@@ -5,10 +5,10 @@ $sql = "SELECT * FROM SanPham WHERE BiXoa = 0 ORDER BY SoLuongBan DESC LIMIT 0, 
 $result = DataProvider::ExecuteQuery($sql);
 while ($row = mysqli_fetch_array($result)) {
 ?>
-    <div class="box">
+    <div>
         <div class="col-md-3 item-grid simpleCart_shelfItem">
             <div class=" mid-pop">
-                <div class="pro-img"> <img src="images/<?php echo $row["HinhURL"]; ?>" />
+                <div class="pro-img"> <img class="img-responsive" src="images/<?php echo $row["HinhURL"]; ?>" />
                 </div>
                 <div class="mid-1">
                     <div class="phone">
@@ -27,17 +27,8 @@ while ($row = mysqli_fetch_array($result)) {
                 </div>
             </div>
         </div>
-
-
-
-        <!-- <img src="images/<?php echo $row["HinhURL"]; ?>" />
-        <div class="pname"><?php echo $row["TenSanPham"]; ?></div>
-        <div class="pprice">Giá: <?php echo $row["GiaSanPham"]; ?>đ</div>
-        <div class="action">
-            <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>">Chi tiết</a>
-        </div> -->
     </div>
 <?php
-                                                    }
+}
 
 ?>
