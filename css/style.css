@@ -96,15 +96,15 @@ div#bs-megadropdown-tabs {
     width: 20%;
 }
 .menu-top {
-    width: 850px;
-	padding: 1em;
+    width: 750px;
+    padding: 1em;
 }
 .col1 ul li{
 	list-style:none;
 	    border-right: none;
 }
 .col1 ul li a{
-	padding: 6px 0px;
+	padding: 2px 0px;
     display: block;
 }
 .col1 h4{
@@ -113,6 +113,7 @@ div#bs-megadropdown-tabs {
     margin-bottom: 0.5em;
     font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 }
+
 /*--cart shop--*/
 .itemContainer{
 	width:100%;
@@ -562,93 +563,7 @@ a.buy-now:hover{
     border-radius: 10px;
     margin: 0.5em auto;
 }
-/*--typo-single--*/
 
-.thumb-image > img { width: 100%; }
-/*--single--*/
-.single-para h1{
-	font-size:1.5em;
-	color:#52D0C4;
-	line-height:1.5em;
-	  font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
-}
-label.add-to{
-	display:block;
-	font-size: 2em;
-	color: #000;
-}
-.single-para p{
-	font-size:0.9em;
-	color:#B2B2B2;
-	line-height:1.8em;
-}
-a.cart{
-  padding: 0.3em 0.7em;
-  color: #FFF;
-  background: #52D0C4;
-  margin: 1.5em 0 0;
-  font-size: 1em;
-  display:inline-block;
-  line-height: 1.6em;
-  text-align: center;
-  text-decoration:none;
-}
-a.cart:hover{
-	background: #000;
-}
-/*----*/
-.star-on {
-  padding: 1em 0;
-}
-.star-on ul {
-  float:left;
-}
-
-.star-on ul li{
-	display: inline-block;
-}
-.star-on ul li i{
-	color:#000;
-}
-.review{
-	float:left;
-	  padding: 0 1em;
-}
-.star-on a{
-	text-decoration:none;
-	font-size:1em;
-	color:#52D0C4;
-}
-.star-on a:hover{
-	color:#000;
-}
-.single-bottom h4{
-	color:#000;
-	font-size:1.5em;
-	padding:0.5em;
-	border-bottom:1px solid #fa7455	;
-}
-.single {
-  padding: 5em 0 0;
-}
-.available h6{
-	color:#52D0C4;
-	font-size:1.4em;
-	padding: 0 0 1em;
-}
-.available ul li{
-	display:inline-block;
-	padding:0 0.5em 0 0;
-	color:#4c4c4c;
-	font-size:0.9em;
-}
-.available ul li select {
-  outline: none;
-  padding: 3px;
-}
-.available {
-  padding: 2em 0 1em;
-}
 /*--products--*/
 .product-bottom {
     padding-top: 2em;
@@ -708,58 +623,20 @@ ul.kid-menu li,ul.cute li{
     padding-bottom: 0em;
 }
 /*--single--*/
-.span_2_of_a1 h3 {
-	color: #000;
-    text-transform: uppercase;
-    font-size: 1.8em;
-    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
-}
-p.in-para{
-color: #B3B3B3;
-    font-size: 0.9em;
-    line-height: 2em;
-    margin: 1em 0 ;
-	border-bottom: 1px solid #f0f0f0;
-    border-top: 3px double #f0f0f0;
-	padding:1em 0;
-}
-.price_single {
-	border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 1em;
-}
-span.reducedfrom {
-	    color: #000;
-    font-size: 1.5em;
-    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+#chitietleft img{  
+    padding-top: 3em;
+    width: 30%;
     float: left;
 }
-.price_single a {
-	color: #999;
-	font-size: 13px;
-	float:right;
-	margin-top: 0.7em;
-}
-h4.quick {
-	color: #000;
-	font-size:1.2em;
-	text-transform: uppercase;
-	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
-	margin-top: 1em;
-}
-p.quick_desc {
-	color:#B3B3B3;
-	font-size:0.9em;
-	line-height: 2em;
-	margin: 1em 0 2em;
-}
-span.actual {
-	color:#000;
-	font-size: 1em;
-	margin-right: 5%;
-}
-.add-to{
-	float:right;
-	margin-top: 1.6em;
+#chitietright::after{
+    padding-top: 30em;
+    padding-left: 30em;
+    font-size: 1.2em;
+    width: 54%;
+    float: left;
+    display: table;
+    clear: both;
+
 }
 /*--quantity-starts--*/
 .quantity{
@@ -1132,14 +1009,15 @@ nav.nav-sidebar {
     line-height: 1.8em;
     margin:1em 0 0;
 }
+/*----*/
 .address-grid i{
 	color:#000;
 	font-size:1em;
-	float: left;
 	margin: 0 5% 0 0;
 	display: inline-block;
 	line-height: 2em;
 }
+/*------*/
 .address1{
 	float: left;
 }
@@ -1720,9 +1598,6 @@ h1.grid2 {
 h2.grid2 {
   font-size: 1.9em;
 }
-.single {
-    padding: 3.5em 0 0;
-}
 .b-wrapper1.long-img {
     padding-top: 16em;
 }
@@ -1893,9 +1768,6 @@ td {
 }
 .search input[type=submit] {
     top: 7px;
-}
-.single {
-    padding: 3em 0 0;
 }
 .span_2_of_a1 h3 {
     font-size: 1.4em;
@@ -2165,16 +2037,6 @@ td {
 }
 .sed h5 {
     font-size: 1em;
-}
-.single {
-    padding: 2em 0 0;
-}
-.single-top-in {
-    padding: 0;
-}
-.price_single {
-    font-size: 1em;
-    margin: 0.5em 0 1em;
 }
 h4.quick {
     font-size: 1.1em;

@@ -38,12 +38,8 @@
         </div>
         <div class="container">
             <div class="head-top">
-                <div class="col-sm-8 col-md-offset-2 h_menu4">
+                <div class="col-sm-8 col-sm-offset-2 h_menu4">
                     <nav class="navbar nav_bottom" role="navigation">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header nav_2">
-                            <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        </div>
                         <!-- Menu Bar -->
                         <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                             <ul class="nav navbar-nav nav_1">
@@ -51,118 +47,81 @@
                                 <li class="dropdown mega-dropdown active"> <a class="color1" href="#" class="dropdown-toggle" data-toggle="dropdown">Điện Thoại<span class="caret"></span></a>
                                     <div class="dropdown-menu ">
                                         <div class="menu-top">
+                                            <h3>Hãng sản xuất</h3>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>IPHONE</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">IPHONE 11</a></li>
-                                                        <li><a href="product.html">IPHONE X</a></li>
-                                                        <li><a href="product.html">IPHONE 8</a></li>
-                                                        <li><a href="product.html">IPHONE 7</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                    <h4>SAMSUNG</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">SAMSUNG NOTE</a></li>
-                                                        <li><a href="product.html">SAMSUNG GALAXY S10</a></li>
-                                                        <li><a href="product.html">SAMSUNG A</a></li>
-                                                        <li><a href="product.html">SAMSUNG FOLD</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                    <h4>OPPO</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">OPPO RENO</a></li>
-                                                        <li><a href="product.html">OPPO A</a></li>
-                                                        <li><a href="product.html">OPPO K</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                    <h4>XIAOMI</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">XIAOMI MI</a></li>
-                                                        <li><a href="product.html">XIAOMI REDMI</a></li>
-                                                        <li><a href="product.html">XIAOMI POCOPHONE</a></li>
-                                                        <li><a href="product.html">XIAOMI BLACKSHARK</a></li>
-                                                    </ul>
+                                                    <a href="#" ><h4>APPLE</h4></a>
                                                 </div>
                                                 <div class="clearfix"></div>
                                             </div>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>REALME</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">REALME 5</a></li>
-                                                        <li><a href="product.html">REALME C3</a></li>
-                                                        <li><a href="product.html">REALME XT</a></li>
-                                                    </ul>
+                                                    <a href="#"><h4>SAMSUNG</h4></a>
                                                 </div>
                                                 <div class="clearfix"></div>
                                             </div>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>ASUS</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">ASUS ROG</a></li>
-                                                        <li><a href="product.html">AUSU ZENFONE</a></li>
-                                                    </ul>
+                                                <a href="#"><h4>OPPO</h4></a>
                                                 </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="col1">
+                                                <div class="h_nav">
+                                                <a href="#"><h4>XIAOMI</h4></a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="col1">
+                                                <div class="h_nav">
+                                                <a href="#"><h4>REALME</h4></a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col1">
+                                                <div class="h_nav">
+                                                <a href="#"><h4>ASUS</h4></a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col1">
+                                                <div class="h_nav">
+                                                <a href="#"><h4>NOKIA</h4></a>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col1">
+                                                <div class="h_nav">
+                                                <a href="#"><h4>SONY</h4></a>
                                                 <div class="clearfix"></div>
                                             </div>
                                         </div>
                                 </li>
-                                <li class="dropdown mega-dropdown active"> <a class="color2" href="#" class="dropdown-toggle" data-toggle="dropdown">Laptop<span class="caret"></span></a>
+                                <li class="dropdown mega-dropdown active"> <a class="color2" href="#" class="dropdown-toggle" data-toggle="dropdown">TABLET<span class="caret"></span></a>
                                     <div class="dropdown-menu mega-dropdown-menu">
                                         <div class="menu-top">
+                                        <h3>Hãng sản xuất</h3>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>Macbook</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">Macbook Air</a></li>
-                                                        <li><a href="product.html">MacBook Pro</a></li>
-                                                    </ul>
+                                                <a href="#"><h4>APPLE (iPad)</h4></a>
                                                 </div>
+                                                <div class="clearfix"></div>
                                             </div>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>HP</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">HP Pavilion</a></li>
-                                                        <li><a href="product.html">HP Notebook</a></li>
-                                                        <li><a href="product.html">HP Envy</a></li>
-                                                        <li><a href="product.html">HP Elitebook</a></li>
-                                                        <li><a href="product.html">Các dòng khác</a></li>
-                                                </div>
+                                                <a href="#"><h4>SAMSUNG</h4></a>
+                                            </div>
+                                            <div class="clearfix"></div>
                                             </div>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>Asus</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">Asus Vivobook</a></li>
-                                                        <li><a href="product.html">Asus Zenbook</a></li>
-                                                        <li><a href="product.html">Asus Zephyrus</a></li>
-                                                        <li><a href="product.html">Asus Strix</a></li>
-                                                        <li><a href="product.html">Asus TUF Gaming</a></li>
-                                                        <li><a href="product.html">Asus Pro</a></li>
-                                                        <li><a href="product.html">Các dòng khác</a></li>
-                                                    </ul>
+                                                <a href="#"><h4>LENOVO</h4></a>
                                                 </div>
+                                                <div class="clearfix"></div>
                                             </div>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <h4>MSI</h4>
-                                                    <ul>
-                                                        <li><a href="product.html">MSI GF63</a></li>
-                                                        <li><a href="product.html">MSI PS41</a></li>
-                                                        <li><a href="product.html">MSI GL63</a></li>
-                                                    </ul>
+                                                <a href="#"><h4>ITEL</h4></a>
                                                 </div>
                                             </div>
                                             <div class="clearfix"></div>
@@ -170,8 +129,7 @@
                                     </div>
                                 </li>
                                 <li><a class="color3" href="product.html">Phụ Kiện</a></li>
-                                <li><a class="color4" href="404.html">Sim,Thẻ Nhớ</a></li>
-                                <li><a class="color6" href="contact.html">Góp Ý</a></li>
+                                <li><a class="color6" href="contact.html">Phản hồi</a></li>
                             </ul>
                         </div>
                         <!-- /menubar -->
