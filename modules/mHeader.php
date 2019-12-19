@@ -50,7 +50,7 @@
                                             <h3>Hãng sản xuất</h3>
                                             <div class="col1">
                                                 <div class="h_nav">
-                                                    <a href="#" ><h4>APPLE</h4></a>
+                                                    <a href="pages/pError.php" ><h4>APPLE</h4></a>
                                                 </div>
                                                 <div class="clearfix"></div>
                                             </div>

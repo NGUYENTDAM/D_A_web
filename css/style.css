@@ -33,9 +33,12 @@ body a{
  ul{
 	padding: 0;
 	margin: 0;
+}h2,h3,h4,h5,h6,label,p{
+    margin:0;
 }
-h1,h2,h3,h4,h5,h6,label,p{
-	margin:0;	
+h1{
+    padding-left: 80px;
+    margin: 0;
 }
 /*--header--*/
 .head{
@@ -623,21 +626,70 @@ ul.kid-menu li,ul.cute li{
     padding-bottom: 0em;
 }
 /*--single--*/
-#chitietleft img{  
-    padding-top: 3em;
-    width: 30%;
-    float: left;
-}
-#chitietright::after{
-    padding-top: 30em;
-    padding-left: 30em;
-    font-size: 1.2em;
-    width: 54%;
-    float: left;
-    display: table;
-    clear: both;
 
+
+#chitietsp{
+    padding: 10px 10px 10px 10px;
+    min-height: 220px;
 }
+#chitietleft{
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 0;
+    height: 490px;
+    width: 500px;
+}
+#chitietleft img{
+    width: 80%;  
+}
+#chitietright{
+    padding: 24px 24px 24px 22px;
+    font-size: 2em;
+    float: right;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 400px;
+    border-style: dotted;
+    border-color: #d9d9d9;
+}
+
+
+#mota{
+    clear: both;
+    font-style: italic;
+    font-size: 24px;
+    color: orangered;
+}
+.data{
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}
+
+hr{
+    margin: 7px 7px 7px 7px;
+}
+
+.productname{
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}
+
+
+.factory{
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}
+
 /*--quantity-starts--*/
 .quantity{
 	margin: 1.5em 0;
