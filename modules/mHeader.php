@@ -8,13 +8,33 @@
     </div>
     <div class="header-top">
         <div class="container">
-            <div class="col-sm-5 col-md-offset-2  header-login">
-                <ul>
-                    <li><a href="login.html">Đăng nhập</a></li>
-                    <li><a href="register.html">Đăng ký</a></li>
-                    <li><a href="checkout.html">Giỏ hàng</a></li>
-                </ul>
-            </div>
+            <?php
+                if (isset($_SESSION["MaTaiKhoan"]))
+                {
+                    ?>
+                    Hello, <?php echo $_SESSION["TenHienThi"];?>
+                    <a href="modules/xlDangXuat.php">Đăng xuất</a>
+                    <a href="index.php?a=5">
+                        <img src="img/manage_shopping.png" height="20" />
+                    </a>
+                    <?php
+                }
+                else
+                {
+                    ?>
+                        <div class="col-sm-5 col-md-offset-2  header-login">
+                            <ul>
+                                <li><a href="index.php?a=5">Đăng Nhập</a></li>
+                                <li><a href="index.php?a=6">Đăng ký</a></li>
+                                <li><a href="checkout.html">Giỏ hàng</a></li>
+                            </ul>
+                        </div>
+                    <?php
+                }
+            ?>
+
+
+            
         </div>
         <div class="container">
             <div class="head-top">

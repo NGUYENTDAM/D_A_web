@@ -9,13 +9,14 @@ while ($row = mysqli_fetch_array($result)) {
     <div>
         <div class="col-md-3 item-grid simpleCart_shelfItem">
             <div class=" mid-pop">
+                
                 <div class="pro-img"> <img class="img-responsive" src="images/<?php echo $row["HinhURL"]; ?>" />
                 </div>
                 <div class="mid-1">
                     <div class="phone">
                         <div class="phone-top"> <?php echo $row["TenSanPham"]; ?>
                         </div>
-                        <div class="img item_add"> <a href="#"><img src="images/ca.png" alt=""></a> </div>
+
                         <div class="clearfix"></div>
                     </div>
                     <div class="mid-2">
@@ -26,7 +27,7 @@ while ($row = mysqli_fetch_array($result)) {
                         <div class="clearfix"></div>
                     </div>
                     <div>
-                        <a href="index.php?a=2&id=<?php echo $row["MaSanPham"]; ?>">Chi Tiết</a>
+                        <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>">Chi Tiết</a>
                     </div>
                 </div>
             </div>
