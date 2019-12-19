@@ -77,7 +77,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				include "Pages/pIndex.php";
 				break;
 			case 2:
+				include "Pages/pSanPhamTheoHang.php";
+				break;
+			case 3:
+				include "Pages/pSanPhamTheoLoai.php";
+				break;
+			case 4:
 				include "Pages/pChitiet.php";
+				break;
+			case 5:
+				include "Pages/pDangNhap.php";
+				break;
+			case 6:
+				include "Pages/pDangKy.php";
 				break;
 			default:
 				include "Pages/pError.php";

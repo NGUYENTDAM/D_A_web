@@ -16,7 +16,6 @@
     </div>
     <div id="chitietright">
         <div>
-            <span >Tên sản phẩm</span>
             <span class="productname"><?= $row["TenSanPham"]; ?></span>
         </div>
         <div>
@@ -24,19 +23,19 @@
             <span class="price"><?= $row["GiaSanPham"]; ?>đ</span>
         </div>
         <div>
-            <span >Hãng sản xuất</span>
+            <span >Hãng sản xuất : </span>
             <span class="factory"><?= $row["TenHangSanXuat"]; ?></span>
         </div>
         <div>
-            <span >Loại sản phẩm</span>
+            <span >Loại sản phẩm : </span>
             <span class="data"><?= $row["TenLoaiSanPham"]; ?></span>
         </div>
         <div>
-            <span >Số lượng</span>
+            <span >Số lượng : </span>
             <span class="data"><?= $row["SoLuongTon"]; ?> sản phẩm</span>
         </div>
         <div>
-            <span >Số lược xem</span>
+            <span >Số lược xem : </span>
             <span class="data"><?= $row["SoLuocXem"]; ?> lượt</span>
         </div>
         <div class="giohang">
