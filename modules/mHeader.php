@@ -38,103 +38,45 @@
         </div>
         <div class="container">
             <div class="head-top">
-                <div class="col-sm-8 col-sm-offset-2 h_menu4">
-                    <nav class="navbar nav_bottom" role="navigation">
-                        <!-- Menu Bar -->
-                        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-                            <ul class="nav navbar-nav nav_1">
-                                <li><a class="color" href="index.php ">Trang chủ</a></li>
-                                <li class="dropdown mega-dropdown active"> <a class="color1" href="#" class="dropdown-toggle" data-toggle="dropdown">Điện Thoại<span class="caret"></span></a>
-                                    <div class="dropdown-menu ">
-                                        <div class="menu-top">
-                                            <h3>Hãng sản xuất</h3>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                    <a href="pages/pError.php" ><h4>APPLE</h4></a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                    <a href="#"><h4>SAMSUNG</h4></a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>OPPO</h4></a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>XIAOMI</h4></a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>REALME</h4></a>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>ASUS</h4></a>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>NOKIA</h4></a>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>SONY</h4></a>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div>
-                                </li>
-                                <li class="dropdown mega-dropdown active"> <a class="color2" href="#" class="dropdown-toggle" data-toggle="dropdown">TABLET<span class="caret"></span></a>
-                                    <div class="dropdown-menu mega-dropdown-menu">
-                                        <div class="menu-top">
-                                        <h3>Hãng sản xuất</h3>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>APPLE (iPad)</h4></a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>SAMSUNG</h4></a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>LENOVO</h4></a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                            <div class="col1">
-                                                <div class="h_nav">
-                                                <a href="#"><h4>ITEL</h4></a>
-                                                </div>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li><a class="color3" href="product.html">Phụ Kiện</a></li>
-                                <li><a class="color6" href="contact.html">Phản hồi</a></li>
-                            </ul>
+            <div class="navbar1">
+                        <a href="#">Home</a>
+                        <div class="subnav1">
+                            <button class="subnavbtn1" onclick="window.location.href = 'index.php?a=404';">Điện thoại<i class="fa fa-caret-down"></i></button>
+                            <div class="subnav-content1">
+                                <p class="cnt">Hãng sản xuất</p>
+                            <a href="#">APPLE</a>
+                            <a href="#">SAMSUNG</a>
+                            <a href="#">OPPO</a>
+                            <a href="#">XIAOMI</a>
+                            <a href="#">ASUS</a>
+                            <a href="#">REALME</a>
+                            </div>
                         </div>
-                        <!-- /menubar -->
-                    </nav>
-                </div>
+                        <div class="subnav1">
+                            <button class="subnavbtn1"onclick="window.location.href = '#';">Tablet <i class="fa fa-caret-down"></i></button>
+                            <div class="subnav-content1">
+                            <p class="cnt">Hãng sản xuất</p>
+                            <a href="#">APPLE (iPad)</a>
+                            <a href="#">SAMSUNG</a>
+                            <a href="#">LENOVO</a>
+                            </div>
+                        </div>
+                        <div class="subnav1">
+                            <button class="subnavbtn1" onclick="window.location.href = '#m';">Phụ kiện<i class="fa fa-caret-down"></i></button>
+                            <div class="subnav-content1">
+                            <p class="cnt">Các sản phẩm phụ kiện</p>
+                            <a href="#">Loa</a>
+                            <a href="#">Ốp lưng</a>
+                            <a href="#">USB-Ổ cứng</a>
+                            <a href="#">Tai nghe</a>
+                            <a href="#">Sạc dự phòng</a>
+                            <a href="#">Thẻ nhớ</a>
+                            <a href="#">Phụ kiện khác</a>
+                            </div>
+                            </div>
+                        <a href="#contact">Phản hồi</a>
+                        </div>
+                        </div>
                 <div class="col-sm-2 search-right">
                     <ul class="heart">
                         <li>
