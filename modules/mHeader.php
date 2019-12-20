@@ -39,40 +39,30 @@
         <div class="container">
             <div class="head-top">
             <div class="navbar1">
-                        <a href="#">Home</a>
+                        <a href="index.php">Trang Chủ</a>
                         <div class="subnav1">
-                            <button class="subnavbtn1" onclick="window.location.href = 'index.php?a=404';">Điện thoại<i class="fa fa-caret-down"></i></button>
+                            <button class="subnavbtn1" onclick="window.location.href='index.php?a=3&id=1';">Điện thoại<i class="fa fa-caret-down"></i></button>
                             <div class="subnav-content1">
                                 <p class="cnt">Hãng sản xuất</p>
-                            <a href="#">APPLE</a>
-                            <a href="#">SAMSUNG</a>
-                            <a href="#">OPPO</a>
-                            <a href="#">XIAOMI</a>
-                            <a href="#">ASUS</a>
-                            <a href="#">REALME</a>
+                            <a href="index.php?a=2&id=1">APPLE</a>
+                            <a href="index.php?a=2&id=2">SAMSUNG</a>
+                            <a href="index.php?a=2&id=3">OPPO</a>
+                            <a href="index.php?a=2&id=4">XIAOMI</a>
+                            <a href="index.php?a=2&id=5">REALME</a>
                             </div>
                         </div>
                         <div class="subnav1">
-                            <button class="subnavbtn1"onclick="window.location.href = '#';">Tablet <i class="fa fa-caret-down"></i></button>
+                            <button class="subnavbtn1"onclick="window.location.href = 'index.php?a=3&id=2';">Tablet <i class="fa fa-caret-down"></i></button>
                             <div class="subnav-content1">
                             <p class="cnt">Hãng sản xuất</p>
-                            <a href="#">APPLE (iPad)</a>
-                            <a href="#">SAMSUNG</a>
-                            <a href="#">LENOVO</a>
+                            <a href="index.php?a=2&id=7">APPLE (iPad)</a>
+                            <a href="index.php?a=2&id=8">SAMSUNG</a>
+                            <a href="index.php?a=2&id=6">LENOVO</a>
                             </div>
                         </div>
                         <div class="subnav1">
-                            <button class="subnavbtn1" onclick="window.location.href = '#m';">Phụ kiện<i class="fa fa-caret-down"></i></button>
-                            <div class="subnav-content1">
-                            <p class="cnt">Các sản phẩm phụ kiện</p>
-                            <a href="#">Loa</a>
-                            <a href="#">Ốp lưng</a>
-                            <a href="#">USB-Ổ cứng</a>
-                            <a href="#">Tai nghe</a>
-                            <a href="#">Sạc dự phòng</a>
-                            <a href="#">Thẻ nhớ</a>
-                            <a href="#">Phụ kiện khác</a>
-                            </div>
+                            <button class="subnavbtn1" onclick="window.location.href = 'index.php?a=3&id=3';">Phụ kiện<i class="fa fa-caret-down"></i></button>
+                           
                             </div>
                         <a href="#contact">Phản hồi</a>
                         </div>

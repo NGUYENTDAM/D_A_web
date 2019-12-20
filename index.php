@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			case 2:
 				include "Pages/pSanPhamTheoHang.php";
 				break;
-			case 3:
+			case 3:			
 				include "Pages/pSanPhamTheoLoai.php";
 				break;
 			case 4:

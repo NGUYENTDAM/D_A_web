@@ -29,6 +29,7 @@ while ($row = mysqli_fetch_array($result)) {
                     <div>
                         <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>">Chi Tiết</a>
                     </div>
+                    <div class="clearfix"></div>
                 </div>
             </div>
         </div>
