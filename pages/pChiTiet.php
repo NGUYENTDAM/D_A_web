@@ -1,14 +1,13 @@
-
 <?php
-    if(isset($_GET["id"]))
-        $id = $_GET["id"];
-    else
-        DataProvider::ChangeURL("index.php?a=404");
-    $sql = "SELECT s.MaSanPham, s.TenSanPham, s.GiaSanPham, s.SoLuongTon, s.SoLuocXem, s.MoTa,s.HinhURL, h.TenHangSanXuat, l.TenLoaiSanPham FROM SanPham s, HangSanXuat h, LoaiSanPham l WHERE s.BiXoa = 0 AND s.MaHangSanXuat = h.MaHangSanXuat AND s.MaLoaiSanPham = l.MaLoaiSanPham AND s.MaSanPham = $id";
-    $result = DataProvider::ExecuteQuery($sql);
-    $row = mysqli_fetch_array($result);
-    if($row == null)
-        DataProvider::ChangeURL("index.php?a=404");
+if (isset($_GET["id"]))
+    $id = $_GET["id"];
+else
+    DataProvider::ChangeURL("index.php?a=404");
+$sql = "SELECT s.MaSanPham, s.TenSanPham, s.GiaSanPham, s.SoLuongTon, s.SoLuocXem, s.MoTa,s.HinhURL, h.TenHangSanXuat, l.TenLoaiSanPham FROM SanPham s, HangSanXuat h, LoaiSanPham l WHERE s.BiXoa = 0 AND s.MaHangSanXuat = h.MaHangSanXuat AND s.MaLoaiSanPham = l.MaLoaiSanPham AND s.MaSanPham = $id";
+$result = DataProvider::ExecuteQuery($sql);
+$row = mysqli_fetch_array($result);
+if ($row == null)
+    DataProvider::ChangeURL("index.php?a=404");
 ?>
 <h1><?= $row["TenSanPham"]; ?></h1>
 <div id="chitietsp">
@@ -22,51 +21,94 @@
         </div>
         <hr />
         <div>
-            <span >Giá:</span>
+            <span>Giá:</span>
             <span class="price"><?= $row["GiaSanPham"]; ?>đ</span>
         </div>
         <hr />
         <div>
-            <span >Hãng sản xuất : </span>
+            <span>Hãng sản xuất : </span>
             <span class="factory"><?= $row["TenHangSanXuat"]; ?></span>
         </div>
         <hr />
         <div>
-            <span >Loại sản phẩm : </span>
+            <span>Loại sản phẩm : </span>
             <span class="data"><?= $row["TenLoaiSanPham"]; ?></span>
         </div>
         <hr />
         <div>
-            <span >Số lượng : </span>
+            <span>Số lượng : </span>
             <span class="data"><?= $row["SoLuongTon"]; ?> sản phẩm</span>
         </div>
         <hr />
         <div>
-            <span >Số lược xem : </span>
+            <span>Số lược xem : </span>
             <span class="data"><?= $row["SoLuocXem"]; ?> lượt</span>
         </div>
         <hr />
         <div class="giohang">
             <?php
-                if(isset($_SESSION["MaTaiKhoan"]))
-                {
-                ?>
-                    <a href="index.php?a=5&id=<?php echo $row["MaSanPham"]; ?>">
-                        <img src="img/ca.png" width="32">
-                    </a>
-                <?php
-                }
+            if (isset($_SESSION["MaTaiKhoan"])) {
+            ?>
+                <a href="index.php?a=5&id=<?php echo $row["MaSanPham"]; ?>">
+                    <img src="img/ca.png" width="32">
+                </a>
+            <?php
+            }
             ?>
         </div>
     </div>
     <div id="mota">
-        <?=$row["MoTa"];
+        <?= $row["MoTa"];
         ?>
     </div>
 </div>
 <?php
-    $SoLuocXem = $row["SoLuocXem"] + 1;
-    $sql = "UPDATE SanPham SET SoLuocXem = $SoLuocXem
+$SoLuocXem = $row["SoLuocXem"] + 1;
+$sql = "UPDATE SanPham SET SoLuocXem = $SoLuocXem
             WHERE MaSanPham = $id";
-    DataProvider::ExecuteQuery($sql);
+DataProvider::ExecuteQuery($sql);
 ?>
+
+
+<div class="container">
+    <div class="content-mid">
+        <h3>Sản phẩm cùng loại</h3>
+        <?php
+        // nếu mà có biến idType thì ta sẽ
+        if (isset($_GET["idType"])) {
+            $idType = $_GET["idType"];
+            // viết câu truy vấn 
+            $sql = "SELECT *FROM SanPham where MaLoaiSanPham=$idType AND BiXoa=0 LIMIT 5";
+            $result = DataProvider::ExecuteQuery($sql);
+            //duyệt hết dữ liệu và thêm vào khi lấy từ db ra
+            while ($row = mysqli_fetch_array($result)) {
+
+        ?>
+
+                <div class="col-md-3 item-grid simpleCart_shelfItem">
+                    <div class=" mid-pop">
+
+                        <div class="pro-img"> <img class="img-responsive" src="images/<?php echo $row["HinhURL"]; ?>" />
+                        </div>
+                        <div class="mid-1">
+                            <div class="phone">
+                                <div class="phone-top"> <?php echo $row["TenSanPham"]; ?>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="mid-2">
+                                Giá: <?php echo $row["GiaSanPham"]; ?>đ
+                                <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>&idType=<?= $row["MaLoaiSanPham"] ?>">Chi Tiết</a>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <?php
+
+            }
+        }
+        ?>
+    </div>
+</div>

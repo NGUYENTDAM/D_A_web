@@ -21,13 +21,8 @@ while ($row = mysqli_fetch_array($result)) {
                     </div>
                     <div class="mid-2">
                         Giá: <?php echo $row["GiaSanPham"]; ?>đ
-                        <div class="block">
-                            <div class="starbox small ghosting"> </div>
-                        </div>
+                        <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>&idType=<?=$row["MaLoaiSanPham"]?>">Chi Tiết</a>                  
                         <div class="clearfix"></div>
-                    </div>
-                    <div>
-                        <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>">Chi Tiết</a>
                     </div>
                 </div>
             </div>
