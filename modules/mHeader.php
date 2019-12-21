@@ -22,7 +22,7 @@
                 <div class="col-sm-5 col-md-offset-2  header-login">
                     <ul>
                         <li><a href="index.php?a=5">Đăng Nhập</a></li>
-                        <li><a href="index.php?a=6">Đăng ký</a></li>
+                        <li><a href="pages/TaoTaiKhoan/pTaoTaiKhoan.php?">Đăng ký</a></li>
                         <li><a href="checkout.html">Giỏ hàng</a></li>
                     </ul>
                 </div>

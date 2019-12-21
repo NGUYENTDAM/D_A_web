@@ -25,6 +25,10 @@
                {
                    DataProvider::ChangeURL("../admin/index.php");
                }
+               if($row["MaLoaiTaiKhoan"] == 1)
+               {
+                    DataProvider::ChangeURL("../index.php");
+               }
                else
                {
                     $curURL =$_SESSION["path"];
