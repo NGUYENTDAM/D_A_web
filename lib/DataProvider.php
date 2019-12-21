@@ -13,7 +13,7 @@
         public static function ChangeURL($path)
         {
             echo '<script type = "text/javascript">';
-            echo 'localtion = "'.$path.'";';
+            echo 'location = "'.$path.'";';
             echo '</script>';
         }
     }

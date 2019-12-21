@@ -12,7 +12,7 @@
             if (isset($_SESSION["MaTaiKhoan"])) {
             ?>
                 Hello, <?php echo $_SESSION["TenHienThi"]; ?>
-                <a href="modules/xlDangXuat.php">Đăng xuất</a>
+                <a style="margin-left: 200px" href="modules/xlDangXuat.php">Đăng xuất</a>
                 <a href="index.php?a=5">
                     <img src="img/manage_shopping.png" height="20" />
                 </a>
