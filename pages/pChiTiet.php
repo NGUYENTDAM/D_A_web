@@ -13,7 +13,10 @@ if ($row == null)
 <div id="chitietsp">
     <div id="chitietleft">
         <img src="images/<?php echo $row["HinhURL"]; ?>">
-
+        <div id="mota">
+        <?= $row["MoTa"];
+        ?>
+    </div>
     </div>
     <div id="chitietright">
         <div>
@@ -56,10 +59,6 @@ if ($row == null)
             }
             ?>
         </div>
-    </div>
-    <div id="mota">
-        <?= $row["MoTa"];
-        ?>
     </div>
 </div>
 <?php

@@ -20,7 +20,7 @@ while ($row = mysqli_fetch_array($result)) {
                         <div class="clearfix"></div>
                     </div>
                     <div class="mid-2">
-                        Giá: <?php echo $row["GiaSanPham"]; ?>đ
+                        <span>Giá: <?php echo $row["GiaSanPham"]; ?>đ</span>
                         <a href="index.php?a=4&id=<?php echo $row["MaSanPham"]; ?>&idType=<?=$row["MaLoaiSanPham"]?>">Chi Tiết</a>                  
                         <div class="clearfix"></div>
                     </div>

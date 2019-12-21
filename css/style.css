@@ -18,7 +18,7 @@
 	src:url(../fonts/Oxygen-Regular.ttf) format('truetype');
 }
 html,body{
-	background:#fff;
+	background: #f2f2f2;;
 	font-size: 100%;
 	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	 
@@ -37,8 +37,7 @@ body a{
     margin:0;
 }
 h1{
-    padding-left: 80px;
-    margin: 0;
+    padding-left: 90px;
 }
 /*--header--*/
 .head{
@@ -65,7 +64,7 @@ h1{
 	background: #474747;
 }
 .header-top {
-    background-color: white; 
+    background-color: #f2f2f2; 
 	padding: 0.3em 0;
 }
 ul.nav_1 li a {
@@ -479,6 +478,9 @@ a.buy-now:hover{
 .mid-2 {
     padding-top: 1em;
 }
+.mid-2 a{
+    float: right;
+}
 .mid-1 {
     padding-top: 1em;
 }
@@ -636,12 +638,12 @@ ul.kid-menu li,ul.cute li{
 #chitietleft{
     float: left;
     margin-bottom: 10px;
-    padding-left: 0;
-    height: 490px;
+    padding-left: 90px;
+    height: 450px;
     width: 500px;
 }
 #chitietleft img{
-    width: 80%;  
+    width: 100%;  
 }
 #chitietright{
     padding: 24px 24px 24px 22px;
@@ -2200,7 +2202,7 @@ td.add-check a {
 /*----menu----*/
 .navbar1 {
     overflow: hidden;
-    background-color: #333; 
+    background-color: #f2f2f2; 
     float: left;
     margin-left: 210px;
   }
@@ -2208,7 +2210,7 @@ td.add-check a {
   .navbar1 a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -2223,7 +2225,7 @@ td.add-check a {
     font-size: 16px;  
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -2231,14 +2233,14 @@ td.add-check a {
   }
   
   .navbar1 a:hover, .subnav1:hover .subnavbtn1 {
-    background-color: black;
+    background-color: #cccccc;
   }
   
   .subnav-content1 {
     display: none;
     position: absolute;
     left: 0;
-    background-color: black;
+    background-color: #bfbfbf;
     width: 434px;
     margin-left: 304px;
     z-index: 1;
@@ -2246,16 +2248,15 @@ td.add-check a {
   
   .subnav-content1 a {
     float: left;
-    color: white;
+    color: black;
     text-decoration: none;
   }
   .subnav-content1 p {
     margin: 12px;
-    padding: 0;
-    border: 0;
+    font-size: larger;
     vertical-align: baseline;
-    background: black;
-    color: cornsilk;
+    background: #f2f2f2;
+    color: black;
   }
   
   .subnav-content1 a:hover {
